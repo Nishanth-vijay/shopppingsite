@@ -1,0 +1,1892 @@
+{
+  "persons": [
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "phone": "+1-202-555-0143",
+      "username": "alicej",
+      "city": "New York",
+      "age": 28,
+      "gender": "Female"
+    },
+    {
+      "id": "2",
+      "name": "Michael Smith",
+      "phone": "+1-202-555-0198",
+      "username": "mikesmith",
+      "city": "Los Angeles",
+      "age": 34,
+      "gender": "Male"
+    },
+    {
+      "id": "3",
+      "name": "Sophia Lee",
+      "phone": "+1-202-555-0175",
+      "username": "sophial",
+      "city": "Chicago",
+      "age": 25,
+      "gender": "Female"
+    },
+    {
+      "id": "4",
+      "name": "David Brown",
+      "phone": "+1-202-555-0122",
+      "username": "daveb",
+      "city": "Houston",
+      "age": 40,
+      "gender": "Male"
+    },
+    {
+      "id": "5",
+      "name": "Emma Wilson",
+      "phone": "+1-202-555-0166",
+      "username": "emmaw",
+      "city": "San Francisco",
+      "age": 31,
+      "gender": "Female"
+    },
+    {
+      "id": "6",
+      "name": "James Anderson",
+      "phone": "+1-202-555-0111",
+      "username": "jamesa",
+      "city": "Seattle",
+      "age": 29,
+      "gender": "Male"
+    },
+    {
+      "id": "7",
+      "name": "Olivia Martinez",
+      "phone": "+1-202-555-0187",
+      "username": "oliviam",
+      "city": "Miami",
+      "age": 26,
+      "gender": "Female"
+    },
+    {
+      "id": "8",
+      "name": "William Taylor",
+      "phone": "+1-202-555-0155",
+      "username": "willt",
+      "city": "Boston",
+      "age": 38,
+      "gender": "Male"
+    },
+    {
+      "id": "9",
+      "name": "Isabella Thomas",
+      "phone": "+1-202-555-0133",
+      "username": "isabellat",
+      "city": "Atlanta",
+      "age": 24,
+      "gender": "Female"
+    },
+    {
+      "id": "10",
+      "name": "Benjamin Harris",
+      "phone": "+1-202-555-0179",
+      "username": "benh",
+      "city": "Denver",
+      "age": 32,
+      "gender": "Male"
+    },
+    {
+      "id": "11",
+      "name": "Mia Clark",
+      "phone": "+1-202-555-0190",
+      "username": "miac",
+      "city": "Portland",
+      "age": 27,
+      "gender": "Female"
+    },
+    {
+      "id": "12",
+      "name": "Alexander Lewis",
+      "phone": "+1-202-555-0148",
+      "username": "alexl",
+      "city": "Dallas",
+      "age": 36,
+      "gender": "Male"
+    },
+    {
+      "id": "13",
+      "name": "Charlotte Walker",
+      "phone": "+1-202-555-0160",
+      "username": "charlottew",
+      "city": "Philadelphia",
+      "age": 30,
+      "gender": "Female"
+    },
+    {
+      "id": "14",
+      "name": "Ethan Hall",
+      "phone": "+1-202-555-0129",
+      "username": "ethanh",
+      "city": "San Diego",
+      "age": 33,
+      "gender": "Male"
+    },
+    {
+      "id": "15",
+      "name": "Amelia Allen",
+      "phone": "+1-202-555-0136",
+      "username": "ameliaa",
+      "city": "Phoenix",
+      "age": 29,
+      "gender": "Female"
+    },
+    {
+      "id": "16",
+      "name": "Daniel Young",
+      "phone": "+1-202-555-0182",
+      "username": "dany",
+      "city": "Austin",
+      "age": 41,
+      "gender": "Male"
+    },
+    {
+      "id": "17",
+      "name": "Harper King",
+      "phone": "+1-202-555-0119",
+      "username": "harperk",
+      "city": "Las Vegas",
+      "age": 23,
+      "gender": "Female"
+    },
+    {
+      "id": "18",
+      "name": "Jacob Wright",
+      "phone": "+1-202-555-0150",
+      "username": "jacobw",
+      "city": "Orlando",
+      "age": 35,
+      "gender": "Male"
+    },
+    {
+      "id": "19",
+      "name": "Ella Scott",
+      "phone": "+1-202-555-0172",
+      "username": "ellas",
+      "city": "Detroit",
+      "age": 28,
+      "gender": "Female"
+    },
+    {
+      "id": "20",
+      "name": "Matthew Green",
+      "phone": "+1-202-555-0195",
+      "username": "mattg",
+      "city": "Minneapolis",
+      "age": 37,
+      "gender": "Male"
+    },
+    {
+      "id": "21",
+      "name": "Turpati Nishanth",
+      "phone": "07093979817",
+      "username": "lkmlm",
+      "city": "VIZIANAGARAM",
+      "age": "26",
+      "gender": "male"
+    },
+    {
+      "id": "22",
+      "name": "Turpati Nishanth",
+      "phone": "07093979817",
+      "username": "lkmlm",
+      "city": "VIZIANAGARAM",
+      "age": "26",
+      "gender": "male"
+    },
+    {
+      "id": "23",
+      "name": "Turpati Nishanth",
+      "phone": "07093979817",
+      "username": "lkmlm",
+      "city": "VIZIANAGARAM",
+      "age": "26",
+      "gender": "male"
+    }
+  ],
+  "product": [
+    {
+      "id": "1",
+      "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "price": 109.95,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": "2",
+      "title": "Mens Casual Premium Slim Fit T-Shirts ",
+      "price": 22.3,
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": "3",
+      "title": "Mens Cotton Jacket",
+      "price": 55.99,
+      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": "4",
+      "title": "Mens Casual Slim Fit",
+      "price": 15.99,
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_t.png",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      }
+    },
+    {
+      "id": "5",
+      "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+      "price": 695,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_t.png",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": "6",
+      "title": "Solid Gold Petite Micropave ",
+      "price": 168,
+      "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_t.png",
+      "rating": {
+        "rate": 3.9,
+        "count": 70
+      }
+    },
+    {
+      "id": "7",
+      "title": "White Gold Plated Princess",
+      "price": 9.99,
+      "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_t.png",
+      "rating": {
+        "rate": 3,
+        "count": 400
+      }
+    },
+    {
+      "id": "8",
+      "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+      "price": 10.99,
+      "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_t.png",
+      "rating": {
+        "rate": 1.9,
+        "count": 100
+      }
+    },
+    {
+      "id": "9",
+      "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+      "price": 64,
+      "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_t.png",
+      "rating": {
+        "rate": 3.3,
+        "count": 203
+      }
+    },
+    {
+      "id": "10",
+      "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+      "price": 109,
+      "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png",
+      "rating": {
+        "rate": 2.9,
+        "count": 470
+      }
+    },
+    {
+      "id": "11",
+      "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+      "price": 109,
+      "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_t.png",
+      "rating": {
+        "rate": 4.8,
+        "count": 319
+      }
+    },
+    {
+      "id": "12",
+      "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+      "price": 114,
+      "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_t.png",
+      "rating": {
+        "rate": 4.8,
+        "count": 400
+      }
+    },
+    {
+      "id": "13",
+      "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+      "price": 599,
+      "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_t.png",
+      "rating": {
+        "rate": 2.9,
+        "count": 250
+      }
+    },
+    {
+      "id": "14",
+      "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+      "price": 999.99,
+      "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_t.png",
+      "rating": {
+        "rate": 2.2,
+        "count": 140
+      }
+    },
+    {
+      "id": "15",
+      "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+      "price": 56.99,
+      "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_t.png",
+      "rating": {
+        "rate": 2.6,
+        "count": 235
+      }
+    },
+    {
+      "id": "16",
+      "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+      "price": 29.95,
+      "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_t.png",
+      "rating": {
+        "rate": 2.9,
+        "count": 340
+      }
+    },
+    {
+      "id": "17",
+      "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+      "price": 39.99,
+      "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2t.png",
+      "rating": {
+        "rate": 3.8,
+        "count": 679
+      }
+    },
+    {
+      "id": "18",
+      "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+      "price": 9.85,
+      "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_t.png",
+      "rating": {
+        "rate": 4.7,
+        "count": 130
+      }
+    },
+    {
+      "id": "19",
+      "title": "Opna Women's Short Sleeve Moisture",
+      "price": 7.95,
+      "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_t.png",
+      "rating": {
+        "rate": 4.5,
+        "count": 146
+      }
+    },
+    {
+      "id": "20",
+      "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+      "price": 12.99,
+      "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_t.png",
+      "rating": {
+        "rate": 3.6,
+        "count": 145
+      }
+    },
+    {
+      "id": "110",
+      "title": "Essential Tech Gadget V20",
+      "price": 99.99,
+      "description": "High-performance tech accessory for modern daily use. A must-have for professionals and enthusiasts alike. Excellent build quality and reliable functionality.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/120/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 250
+      }
+    },
+    {
+      "id": "21",
+      "title": "Classic Cotton Tee - Blue V21",
+      "price": 25.5,
+      "description": "Premium quality 100% cotton T-shirt. Soft, breathable, and comfortable for all-day wear. A staple piece for any wardrobe.",
+      "category": "women's clothing",
+      "image": "https://picsum.photos/id/121/400/600",
+      "rating": {
+        "rate": 4.2,
+        "count": 550
+      }
+    },
+    {
+      "id": "22",
+      "title": "Luxury Leather Wallet V22",
+      "price": 75,
+      "description": "Handcrafted genuine leather wallet with multiple card slots and a dedicated money clip. Timeless design and durable construction.",
+      "category": "accessories",
+      "image": "https://picsum.photos/id/122/400/600",
+      "rating": {
+        "rate": 4.7,
+        "count": 120
+      }
+    },
+    {
+      "id": "23",
+      "title": "Ergonomic Office Chair V23",
+      "price": 199.99,
+      "description": "Fully adjustable office chair designed for maximum comfort and back support during long hours of work. Features breathable mesh fabric.",
+      "category": "home & furniture",
+      "image": "https://picsum.photos/id/123/400/600",
+      "rating": {
+        "rate": 4.1,
+        "count": 80
+      }
+    },
+    {
+      "id": "24",
+      "title": "Stainless Steel Water Bottle V24",
+      "price": 15.99,
+      "description": "Insulated stainless steel bottle keeps drinks cold for 24 hours and hot for 12. Perfect for gym, travel, or the office. Eco-friendly choice.",
+      "category": "kitchen & dining",
+      "image": "https://picsum.photos/id/124/400/600",
+      "rating": {
+        "rate": 4.8,
+        "count": 780
+      }
+    },
+    {
+      "id": "25",
+      "title": "Men's Casual Sneakers V25",
+      "price": 65,
+      "description": "Stylish and comfortable lace-up sneakers with a durable rubber sole. Ideal for everyday casual wear. Available in multiple colors.",
+      "category": "men's clothing",
+      "image": "https://picsum.photos/id/125/400/600",
+      "rating": {
+        "rate": 4.3,
+        "count": 310
+      }
+    },
+    {
+      "id": "26",
+      "title": "Wireless Noise-Cancelling Headphones V26",
+      "price": 149.99,
+      "description": "Superior audio quality with active noise cancellation. Long battery life and comfortable ear cups for extended listening sessions.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/126/400/600",
+      "rating": {
+        "rate": 4.6,
+        "count": 450
+      }
+    },
+    {
+      "id": "27",
+      "title": "Silver Pendant Necklace V27",
+      "price": 39.99,
+      "description": "Elegant sterling silver pendant on a delicate chain. Perfect accessory for any occasion. Comes in a beautiful gift box.",
+      "category": "jewelry",
+      "image": "https://picsum.photos/id/127/400/600",
+      "rating": {
+        "rate": 4.9,
+        "count": 95
+      }
+    },
+    {
+      "id": "28",
+      "title": "Portable Bluetooth Speaker V28",
+      "price": 45,
+      "description": "Compact and powerful speaker with rich bass and clear sound. Waterproof and ready for your next outdoor adventure. 10-hour battery life.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/128/400/600",
+      "rating": {
+        "rate": 4.4,
+        "count": 620
+      }
+    },
+    {
+      "id": "29",
+      "title": "Yoga Mat - Eco-Friendly V29",
+      "price": 30,
+      "description": "Thick, non-slip, and made from eco-friendly TPE material. Provides excellent cushioning for yoga, pilates, and floor exercises. Easy to clean.",
+      "category": "sports & outdoors",
+      "image": "https://picsum.photos/id/129/400/600",
+      "rating": {
+        "rate": 4.7,
+        "count": 350
+      }
+    },
+    {
+      "id": "30",
+      "title": "Slim-Fit Dress Shirt V30",
+      "price": 49.99,
+      "description": "Crisp, wrinkle-resistant dress shirt with a modern slim fit. Ideal for business meetings or formal events. Easy-care fabric.",
+      "category": "men's clothing",
+      "image": "https://picsum.photos/id/130/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 180
+      }
+    },
+    {
+      "id": "31",
+      "title": "Kitchen Knife Set - 10 Piece V31",
+      "price": 120,
+      "description": "Professional 10-piece knife set with razor-sharp stainless steel blades and ergonomic handles. Includes a stylish wooden block.",
+      "category": "kitchen & dining",
+      "image": "https://picsum.photos/id/131/400/600",
+      "rating": {
+        "rate": 4.8,
+        "count": 290
+      }
+    },
+    {
+      "id": "32",
+      "title": "Smart Fitness Tracker V32",
+      "price": 89.99,
+      "description": "Monitors heart rate, steps, sleep, and calories burned. Syncs with your smartphone. Waterproof and long-lasting battery.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/132/400/600",
+      "rating": {
+        "rate": 4.3,
+        "count": 710
+      }
+    },
+    {
+      "id": "33",
+      "title": "Fleece Hoodie - Unisex V33",
+      "price": 40,
+      "description": "Super soft and warm fleece hoodie. Perfect for layering on chilly days. Features a large front pocket and adjustable drawstring hood.",
+      "category": "women's clothing",
+      "image": "https://picsum.photos/id/133/400/600",
+      "rating": {
+        "rate": 4.6,
+        "count": 920
+      }
+    },
+    {
+      "id": "34",
+      "title": "Minimalist Desk Lamp V34",
+      "price": 55.99,
+      "description": "Modern LED desk lamp with adjustable brightness and color temperature. Sleek design fits any home or office decor. Energy efficient.",
+      "category": "home & furniture",
+      "image": "https://picsum.photos/id/134/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 150
+      }
+    },
+    {
+      "id": "35",
+      "title": "Waterproof Backpack V35",
+      "price": 79.99,
+      "description": "Durable, waterproof backpack with a dedicated laptop sleeve and multiple compartments. Ideal for commuting, school, or travel.",
+      "category": "accessories",
+      "image": "https://picsum.photos/id/135/400/600",
+      "rating": {
+        "rate": 4.7,
+        "count": 480
+      }
+    },
+    {
+      "id": "36",
+      "title": "Diamond Stud Earrings V36",
+      "price": 250,
+      "description": "Classic and elegant diamond stud earrings set in sterling silver. Timeless piece of jewelry, perfect for a gift.",
+      "category": "jewelry",
+      "image": "https://picsum.photos/id/136/400/600",
+      "rating": {
+        "rate": 4.9,
+        "count": 75
+      }
+    },
+    {
+      "id": "37",
+      "title": "Portable Hard Drive - 1TB V37",
+      "price": 60,
+      "description": "High-speed 1TB external hard drive. Compact design and easy plug-and-play setup. Perfect for backing up important files.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/137/400/600",
+      "rating": {
+        "rate": 4.4,
+        "count": 890
+      }
+    },
+    {
+      "id": "38",
+      "title": "Women's Denim Jeans V38",
+      "price": 55.99,
+      "description": "Comfortable stretch denim jeans with a flattering high-rise fit. A versatile addition to your everyday wardrobe.",
+      "category": "women's clothing",
+      "image": "https://picsum.photos/id/138/400/600",
+      "rating": {
+        "rate": 4.2,
+        "count": 340
+      }
+    },
+    {
+      "id": "39",
+      "title": "Set of 4 Coffee Mugs V39",
+      "price": 29.99,
+      "description": "Set of four durable ceramic coffee mugs with a large capacity. Dishwasher and microwave safe. Great for everyday use.",
+      "category": "kitchen & dining",
+      "image": "https://picsum.photos/id/139/400/600",
+      "rating": {
+        "rate": 4.6,
+        "count": 510
+      }
+    },
+    {
+      "id": "40",
+      "title": "Running Shoes - Performance V40",
+      "price": 110,
+      "description": "Lightweight running shoes with superior cushioning and support. Engineered for optimal performance on long runs. Breathable mesh upper.",
+      "category": "men's clothing",
+      "image": "https://picsum.photos/id/140/400/600",
+      "rating": {
+        "rate": 4.7,
+        "count": 650
+      }
+    },
+    {
+      "id": "41",
+      "title": "Smart Home Hub V41",
+      "price": 129,
+      "description": "Central hub for connecting and controlling all your smart home devices. Voice control enabled for easy management.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/141/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 300
+      }
+    },
+    {
+      "id": "42",
+      "title": "Gold Plated Hoop Earrings V42",
+      "price": 22,
+      "description": "Trendy gold-plated hoop earrings. Lightweight and comfortable for all-day wear. The perfect everyday accessory.",
+      "category": "jewelry",
+      "image": "https://picsum.photos/id/142/400/600",
+      "rating": {
+        "rate": 4.3,
+        "count": 420
+      }
+    },
+    {
+      "id": "43",
+      "title": "Adjustable Standing Desk V43",
+      "price": 299.99,
+      "description": "Motorized standing desk that allows you to effortlessly switch between sitting and standing. Improve your posture and productivity.",
+      "category": "home & furniture",
+      "image": "https://picsum.photos/id/143/400/600",
+      "rating": {
+        "rate": 4.8,
+        "count": 110
+      }
+    },
+    {
+      "id": "44",
+      "title": "Travel Luggage Set V44",
+      "price": 199.99,
+      "description": "Three-piece hard-shell luggage set with 360-degree spinning wheels and TSA-approved locks. Durable and lightweight for easy travel.",
+      "category": "accessories",
+      "image": "https://picsum.photos/id/144/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 270
+      }
+    },
+    {
+      "id": "45",
+      "title": "Outdoor Camping Tent V45",
+      "price": 150,
+      "description": "Spacious 4-person camping tent. Easy setup, waterproof, and well-ventilated. Ideal for weekend camping trips.",
+      "category": "sports & outdoors",
+      "image": "https://picsum.photos/id/145/400/600",
+      "rating": {
+        "rate": 4.6,
+        "count": 190
+      }
+    },
+    {
+      "id": "46",
+      "title": "Women's Winter Coat V46",
+      "price": 99,
+      "description": "Warm, padded winter coat with a detachable hood and fleece lining. Keeps you cozy in cold weather. Stylish and practical.",
+      "category": "women's clothing",
+      "image": "https://picsum.photos/id/146/400/600",
+      "rating": {
+        "rate": 4.4,
+        "count": 500
+      }
+    },
+    {
+      "id": "47",
+      "title": "Digital Drawing Tablet V47",
+      "price": 75,
+      "description": "Pressure-sensitive digital tablet for artists and designers. Comes with a battery-free stylus. Compatible with Mac and PC.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/147/400/600",
+      "rating": {
+        "rate": 4.7,
+        "count": 330
+      }
+    },
+    {
+      "id": "48",
+      "title": "Set of Non-Stick Pans V48",
+      "price": 85.99,
+      "description": "Three-piece non-stick frying pan set. Durable, scratch-resistant surface for healthy cooking. Easy to clean and induction compatible.",
+      "category": "kitchen & dining",
+      "image": "https://picsum.photos/id/148/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 680
+      }
+    },
+    {
+      "id": "49",
+      "title": "Classic Aviator Sunglasses V49",
+      "price": 18,
+      "description": "Timeless aviator style sunglasses with polarized lenses offering 100% UV protection. Lightweight metal frame.",
+      "category": "accessories",
+      "image": "https://picsum.photos/id/149/400/600",
+      "rating": {
+        "rate": 4.3,
+        "count": 910
+      }
+    },
+    {
+      "id": "50",
+      "title": "Men's Cargo Pants V50",
+      "price": 45,
+      "description": "Durable and comfortable cargo pants with multiple utility pockets. Great for hiking, work, or casual wear. Relaxed fit.",
+      "category": "men's clothing",
+      "image": "https://m.media-amazon.com/images/I/81xRg0piFpL._UY350_.jpg",
+      "rating": {
+        "rate": 4.4,
+        "count": 470
+      }
+    },
+    {
+      "id": "51",
+      "title": "Robot Vacuum Cleaner V51",
+      "price": 250,
+      "description": "Smart robot vacuum with app control and mapping technology. Efficiently cleans carpets and hard floors. Self-charging dock.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/151/400/600",
+      "rating": {
+        "rate": 4.6,
+        "count": 200
+      }
+    },
+    {
+      "id": "52",
+      "title": "Sterling Silver Bangle V52",
+      "price": 65,
+      "description": "Simple and elegant sterling silver bangle bracelet. Polished finish, suitable for stacking or wearing alone. Hypoallergenic.",
+      "category": "jewelry",
+      "image": "https://picsum.photos/id/152/400/600",
+      "rating": {
+        "rate": 4.7,
+        "count": 140
+      }
+    },
+    {
+      "id": "53",
+      "title": "Modern Coffee Table V53",
+      "price": 145,
+      "description": "Sleek and minimalist coffee table with a tempered glass top and metal frame. Perfect center piece for a modern living room.",
+      "category": "home & furniture",
+      "image": "https://picsum.photos/id/153/400/600",
+      "rating": {
+        "rate": 4.2,
+        "count": 90
+      }
+    },
+    {
+      "id": "54",
+      "title": "Dumbbell Set - 20kg V54",
+      "price": 89,
+      "description": "Adjustable 20kg dumbbell set with chrome finish. Great for strength training at home. Comes with a durable storage case.",
+      "category": "sports & outdoors",
+      "image": "https://picsum.photos/id/154/400/600",
+      "rating": {
+        "rate": 4.8,
+        "count": 550
+      }
+    },
+    {
+      "id": "55",
+      "title": "Women's Formal Blouse V55",
+      "price": 35.99,
+      "description": "Lightweight, professional blouse perfect for office wear or formal occasions. Flowy fabric and elegant design.",
+      "category": "women's clothing",
+      "image": "https://picsum.photos/id/155/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 390
+      }
+    },
+    {
+      "id": "56",
+      "title": "Gaming Keyboard Mechanical V56",
+      "price": 119.99,
+      "description": "Mechanical gaming keyboard with customizable RGB backlighting and tactile switches. Designed for fast and responsive gaming.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/156/400/600",
+      "rating": {
+        "rate": 4.7,
+        "count": 600
+      }
+    },
+    {
+      "id": "57",
+      "title": "Set of Bath Towels - 6 Pc V57",
+      "price": 49.99,
+      "description": "Luxurious 6-piece towel set made from high-quality, absorbent Turkish cotton. Soft and durable, available in various colors.",
+      "category": "home & furniture",
+      "image": "https://picsum.photos/id/157/400/600",
+      "rating": {
+        "rate": 4.6,
+        "count": 750
+      }
+    },
+    {
+      "id": "58",
+      "title": "Men's Dress Watch V58",
+      "price": 120,
+      "description": "Elegant men's watch with a stainless steel case and genuine leather strap. Water-resistant and features a date window.",
+      "category": "accessories",
+      "image": "https://picsum.photos/id/158/400/600",
+      "rating": {
+        "rate": 4.8,
+        "count": 210
+      }
+    },
+    {
+      "id": "59",
+      "title": "Glass Food Storage Containers V59",
+      "price": 35,
+      "description": "Set of 5 glass food storage containers with airtight lids. Microwave, oven, freezer, and dishwasher safe. BPA-free.",
+      "category": "kitchen & dining",
+      "image": "https://picsum.photos/id/159/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 820
+      }
+    },
+    {
+      "id": "60",
+      "title": "Winter Beanie Hat V60",
+      "price": 15,
+      "description": "Warm, knitted winter beanie made from soft acrylic. Perfect for cold weather. Stylish and comfortable unisex design.",
+      "category": "men's clothing",
+      "image": "https://picsum.photos/id/160/400/600",
+      "rating": {
+        "rate": 4.3,
+        "count": 580
+      }
+    },
+    {
+      "id": "61",
+      "title": "Portable Power Bank 20000mAh V61",
+      "price": 39.99,
+      "description": "High-capacity 20000mAh power bank. Features dual USB outputs and fast charging technology. Essential for travel and daily use.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/161/400/600",
+      "rating": {
+        "rate": 4.6,
+        "count": 950
+      }
+    },
+    {
+      "id": "62",
+      "title": "Rose Gold Initial Necklace V62",
+      "price": 29.99,
+      "description": "Delicate rose gold plated necklace with a personalized initial pendant. A thoughtful and stylish gift.",
+      "category": "jewelry",
+      "image": "https://picsum.photos/id/162/400/600",
+      "rating": {
+        "rate": 4.8,
+        "count": 280
+      }
+    },
+    {
+      "id": "63",
+      "title": "Sectional Sofa with Chaise V63",
+      "price": 799,
+      "description": "Large, comfortable sectional sofa with a reversible chaise lounge. Upholstered in durable, easy-to-clean fabric. Assembly required.",
+      "category": "home & furniture",
+      "image": "https://picsum.photos/id/163/400/600",
+      "rating": {
+        "rate": 4.1,
+        "count": 50
+      }
+    },
+    {
+      "id": "64",
+      "title": "Resistance Band Set V64",
+      "price": 20,
+      "description": "Set of 5 resistance bands with varying resistance levels. Perfect for home workouts, physical therapy, and stretching.",
+      "category": "sports & outdoors",
+      "image": "https://picsum.photos/id/164/400/600",
+      "rating": {
+        "rate": 4.7,
+        "count": 670
+      }
+    },
+    {
+      "id": "65",
+      "title": "Women's A-Line Skirt V65",
+      "price": 40,
+      "description": "Flattering high-waisted A-line skirt with a hidden zipper closure. Versatile piece for both casual and semi-formal looks.",
+      "category": "women's clothing",
+      "image": "https://picsum.photos/id/165/400/600",
+      "rating": {
+        "rate": 4.4,
+        "count": 230
+      }
+    },
+    {
+      "id": "66",
+      "title": "Mesh Wi-Fi System V66",
+      "price": 179.99,
+      "description": "Whole-home mesh Wi-Fi system eliminates dead zones and provides seamless, high-speed internet coverage throughout your house.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/166/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 410
+      }
+    },
+    {
+      "id": "67",
+      "title": "Digital Food Scale V67",
+      "price": 19.99,
+      "description": "High-precision digital kitchen scale for accurate ingredient measurement. Features a clear LCD display and tare function.",
+      "category": "kitchen & dining",
+      "image": "https://picsum.photos/id/167/400/600",
+      "rating": {
+        "rate": 4.8,
+        "count": 700
+      }
+    },
+    {
+      "id": "68",
+      "title": "Classic Leather Belt V68",
+      "price": 25,
+      "description": "Genuine leather belt with a polished metal buckle. A versatile accessory suitable for both formal and casual attire.",
+      "category": "accessories",
+      "image": "https://picsum.photos/id/168/400/600",
+      "rating": {
+        "rate": 4.6,
+        "count": 590
+      }
+    },
+    {
+      "id": "69",
+      "title": "Men's Puffer Vest V69",
+      "price": 60,
+      "description": "Lightweight and warm puffer vest. Perfect for layering in transitional weather. Water-resistant outer shell.",
+      "category": "men's clothing",
+      "image": "https://picsum.photos/id/169/400/600",
+      "rating": {
+        "rate": 4.4,
+        "count": 360
+      }
+    },
+    {
+      "id": "70",
+      "title": "Portable Blender V70",
+      "price": 30,
+      "description": "Compact, USB-rechargeable blender for on-the-go smoothies and shakes. Easy to clean and perfect for travel or the gym.",
+      "category": "kitchen & dining",
+      "image": "https://picsum.photos/id/170/400/600",
+      "rating": {
+        "rate": 4.2,
+        "count": 640
+      }
+    },
+    {
+      "id": "71",
+      "title": "Ultra-Thin Laptop V71",
+      "price": 899,
+      "description": "Powerful, ultra-thin laptop with a fast processor and long-lasting battery. Ideal for work, study, and entertainment on the go.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/171/400/600",
+      "rating": {
+        "rate": 4.7,
+        "count": 150
+      }
+    },
+    {
+      "id": "72",
+      "title": "Personalized Bar Necklace V72",
+      "price": 35,
+      "description": "Engravable minimalist bar necklace in sterling silver. A subtle and meaningful piece of jewelry for daily wear.",
+      "category": "jewelry",
+      "image": "https://picsum.photos/id/172/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 290
+      }
+    },
+    {
+      "id": "73",
+      "title": "Queen Size Memory Foam Mattress V73",
+      "price": 450,
+      "description": "10-inch queen size memory foam mattress for ultimate comfort and support. Relieves pressure points and reduces motion transfer.",
+      "category": "home & furniture",
+      "image": "https://picsum.photos/id/173/400/600",
+      "rating": {
+        "rate": 4.3,
+        "count": 130
+      }
+    },
+    {
+      "id": "74",
+      "title": "Hiking Boots - Waterproof V74",
+      "price": 115,
+      "description": "Durable, waterproof hiking boots with excellent grip and ankle support. Perfect for challenging trails and all weather conditions.",
+      "category": "sports & outdoors",
+      "image": "https://picsum.photos/id/174/400/600",
+      "rating": {
+        "rate": 4.6,
+        "count": 300
+      }
+    },
+    {
+      "id": "75",
+      "title": "Women's Knit Cardigan V75",
+      "price": 49,
+      "description": "Soft, open-front knit cardigan. A cozy and stylish layering piece for the office or casual outings. Available in seasonal colors.",
+      "category": "women's clothing",
+      "image": "https://picsum.photos/id/175/400/600",
+      "rating": {
+        "rate": 4.4,
+        "count": 460
+      }
+    },
+    {
+      "id": "76",
+      "title": "Universal TV Remote V76",
+      "price": 14.99,
+      "description": "Universal remote control compatible with most major TV brands. Easy setup and ergonomic design. Requires 2 AAA batteries.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/176/400/600",
+      "rating": {
+        "rate": 4.2,
+        "count": 510
+      }
+    },
+    {
+      "id": "77",
+      "title": "Bamboo Cutting Board Set V77",
+      "price": 24.99,
+      "description": "Set of three eco-friendly bamboo cutting boards. Durable, knife-friendly, and naturally antimicrobial. Easy to maintain.",
+      "category": "kitchen & dining",
+      "image": "https://picsum.photos/id/177/400/600",
+      "rating": {
+        "rate": 4.9,
+        "count": 780
+      }
+    },
+    {
+      "id": "78",
+      "title": "Stylish Crossbody Bag V78",
+      "price": 55,
+      "description": "Compact and stylish vegan leather crossbody bag. Perfect for carrying essentials. Features an adjustable strap and multiple pockets.",
+      "category": "accessories",
+      "image": "https://picsum.photos/id/178/400/600",
+      "rating": {
+        "rate": 4.7,
+        "count": 330
+      }
+    },
+    {
+      "id": "79",
+      "title": "Men's Flannel Shirt V79",
+      "price": 35,
+      "description": "Warm and soft cotton flannel shirt with a classic plaid pattern. Ideal for casual wear or layering in cool weather. Button-down collar.",
+      "category": "men's clothing",
+      "image": "https://picsum.photos/id/179/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 490
+      }
+    },
+    {
+      "id": "80",
+      "title": "AeroPress Coffee Maker V80",
+      "price": 35.99,
+      "description": "Innovative coffee maker that brews smooth, rich coffee without bitterness. Quick and easy to use. Perfect for travel or home.",
+      "category": "kitchen & dining",
+      "image": "https://picsum.photos/id/180/400/600",
+      "rating": {
+        "rate": 4.8,
+        "count": 990
+      }
+    },
+    {
+      "id": "81",
+      "title": "Security Camera Outdoor V81",
+      "price": 99,
+      "description": "Weatherproof outdoor security camera with 1080p HD video and night vision. Connects via Wi-Fi and offers two-way talk.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/181/400/600",
+      "rating": {
+        "rate": 4.3,
+        "count": 380
+      }
+    },
+    {
+      "id": "82",
+      "title": "Cubic Zirconia Tennis Bracelet V82",
+      "price": 45,
+      "description": "Elegant tennis bracelet featuring brilliant-cut cubic zirconia stones. Set in rhodium-plated brass. Secure clasp.",
+      "category": "jewelry",
+      "image": "https://picsum.photos/id/182/400/600",
+      "rating": {
+        "rate": 4.6,
+        "count": 180
+      }
+    },
+    {
+      "id": "83",
+      "title": "Wall Mounted Bookshelf V83",
+      "price": 75,
+      "description": "Floating wall-mounted bookshelf with a hidden bracket system. Adds a modern, space-saving element to any room. Easy installation.",
+      "category": "home & furniture",
+      "image": "https://picsum.photos/id/183/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 260
+      }
+    },
+    {
+      "id": "84",
+      "title": "Foam Roller for Muscles V84",
+      "price": 25,
+      "description": "High-density foam roller for deep tissue massage and muscle recovery. Essential tool for fitness and flexibility. Lightweight and portable.",
+      "category": "sports & outdoors",
+      "image": "https://picsum.photos/id/184/400/600",
+      "rating": {
+        "rate": 4.7,
+        "count": 610
+      }
+    },
+    {
+      "id": "85",
+      "title": "Women's Maxi Dress V85",
+      "price": 55,
+      "description": "Flowy and comfortable maxi dress with a bohemian print. Perfect for summer days or vacation wear. Adjustable spaghetti straps.",
+      "category": "women's clothing",
+      "image": "https://picsum.photos/id/185/400/600",
+      "rating": {
+        "rate": 4.3,
+        "count": 310
+      }
+    },
+    {
+      "id": "86",
+      "title": "Bluetooth Mouse Ergonomic V86",
+      "price": 29.99,
+      "description": "Ergonomic wireless mouse with a comfortable grip. Bluetooth connectivity and adjustable DPI settings. Silent clicking.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/186/400/600",
+      "rating": {
+        "rate": 4.4,
+        "count": 550
+      }
+    },
+    {
+      "id": "87",
+      "title": "Glass Pitcher and Tumblers V87",
+      "price": 45.99,
+      "description": "Set includes a large glass pitcher and four matching tumblers. Ideal for serving water, iced tea, or lemonade. Dishwasher safe.",
+      "category": "kitchen & dining",
+      "image": "https://picsum.photos/id/187/400/600",
+      "rating": {
+        "rate": 4.6,
+        "count": 450
+      }
+    },
+    {
+      "id": "88",
+      "title": "Cashmere Scarf - Unisex V88",
+      "price": 69,
+      "description": "Luxuriously soft 100% cashmere scarf. Provides exceptional warmth without the bulk. A timeless and elegant accessory.",
+      "category": "accessories",
+      "image": "https://picsum.photos/id/188/400/600",
+      "rating": {
+        "rate": 4.9,
+        "count": 100
+      }
+    },
+    {
+      "id": "89",
+      "title": "Men's Trench Coat V89",
+      "price": 130,
+      "description": "Classic double-breasted trench coat. Water-resistant and lined for warmth. A sophisticated outerwear piece for spring and fall.",
+      "category": "men's clothing",
+      "image": "https://picsum.photos/id/189/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 240
+      }
+    },
+    {
+      "id": "90",
+      "title": "Air Fryer - 5.8 Quart V90",
+      "price": 89.99,
+      "description": "Large capacity air fryer for healthier cooking with little to no oil. Digital touchscreen and 8 preset cooking functions. Easy to clean basket.",
+      "category": "kitchen & dining",
+      "image": "https://picsum.photos/id/190/400/600",
+      "rating": {
+        "rate": 4.7,
+        "count": 1100
+      }
+    },
+    {
+      "id": "91",
+      "title": "E-Reader Tablet V91",
+      "price": 119,
+      "description": "Glare-free e-reader with adjustable warm light. Holds thousands of books and has weeks of battery life. Waterproof design.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/191/400/600",
+      "rating": {
+        "rate": 4.6,
+        "count": 520
+      }
+    },
+    {
+      "id": "92",
+      "title": "Mother of Pearl Drop Earrings V92",
+      "price": 39,
+      "description": "Elegant drop earrings featuring natural mother of pearl stones set in silver. Lightweight and adds a touch of sophistication.",
+      "category": "jewelry",
+      "image": "https://picsum.photos/id/192/400/600",
+      "rating": {
+        "rate": 4.4,
+        "count": 160
+      }
+    },
+    {
+      "id": "93",
+      "title": "Velvet Throw Pillow Covers V93",
+      "price": 20,
+      "description": "Set of 4 soft velvet throw pillow covers (18x18 inch). Adds a luxurious and cozy texture to your living space. Hidden zipper closure.",
+      "category": "home & furniture",
+      "image": "https://picsum.photos/id/193/400/600",
+      "rating": {
+        "rate": 4.8,
+        "count": 600
+      }
+    },
+    {
+      "id": "94",
+      "title": "Compact Binoculars V94",
+      "price": 55.99,
+      "description": "High-powered, compact binoculars with clear optics and a wide field of view. Perfect for bird watching, concerts, or sporting events.",
+      "category": "sports & outdoors",
+      "image": "https://picsum.photos/id/194/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 350
+      }
+    },
+    {
+      "id": "95",
+      "title": "Women's Pleated Midi Skirt V95",
+      "price": 45,
+      "description": "Elegant pleated midi skirt with an elastic waistband. Versatile piece that can be dressed up or down. Silky, flowy material.",
+      "category": "women's clothing",
+      "image": "https://picsum.photos/id/195/400/600",
+      "rating": {
+        "rate": 4.7,
+        "count": 280
+      }
+    },
+    {
+      "id": "96",
+      "title": "Portable Mini Projector V96",
+      "price": 150,
+      "description": "Compact and portable mini projector with 1080p support. Built-in speaker and multiple input options. Great for home movie nights.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/196/400/600",
+      "rating": {
+        "rate": 4.4,
+        "count": 220
+      }
+    },
+    {
+      "id": "97",
+      "title": "French Press Coffee Maker V97",
+      "price": 28,
+      "description": "Classic French press with a borosilicate glass carafe and stainless steel filter. Brews rich, full-bodied coffee or loose-leaf tea.",
+      "category": "kitchen & dining",
+      "image": "https://picsum.photos/id/197/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 870
+      }
+    },
+    {
+      "id": "98",
+      "title": "Travel Organizer Cubes V98",
+      "price": 22,
+      "description": "Set of 6 packing cubes for efficient luggage organization. Keeps clothes neat and compressed. Lightweight and durable material.",
+      "category": "accessories",
+      "image": "https://picsum.photos/id/198/400/600",
+      "rating": {
+        "rate": 4.8,
+        "count": 720
+      }
+    },
+    {
+      "id": "99",
+      "title": "Men's Pullover Sweater V99",
+      "price": 55,
+      "description": "Soft and comfortable cotton-blend crewneck pullover sweater. Perfect for casual weekend wear. Available in a variety of colors.",
+      "category": "men's clothing",
+      "image": "https://picsum.photos/id/199/400/600",
+      "rating": {
+        "rate": 4.6,
+        "count": 410
+      }
+    },
+    {
+      "id": "100",
+      "title": "Digital Instant Pot V100",
+      "price": 120,
+      "description": "Multi-functional pressure cooker, slow cooker, rice cooker, and more. Speeds up cooking by up to 70%. Easy-to-use digital controls.",
+      "category": "kitchen & dining",
+      "image": "https://picsum.photos/id/200/400/600",
+      "rating": {
+        "rate": 4.9,
+        "count": 1200
+      }
+    },
+    {
+      "id": "101",
+      "title": "4K Ultra HD Monitor V101",
+      "price": 350,
+      "description": "27-inch 4K Ultra HD monitor with vibrant colors and sharp details. Ideal for graphic design, video editing, and gaming. Slim bezel design.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/201/400/600",
+      "rating": {
+        "rate": 4.7,
+        "count": 180
+      }
+    },
+    {
+      "id": "102",
+      "title": "Opal Stone Ring V102",
+      "price": 85,
+      "description": "Beautiful sterling silver ring featuring a natural opal stone. Delicate and unique design. Perfect for an October birthstone gift.",
+      "category": "jewelry",
+      "image": "https://picsum.photos/id/202/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 90
+      }
+    },
+    {
+      "id": "103",
+      "title": "Outdoor Patio Furniture Set V103",
+      "price": 499,
+      "description": "4-piece rattan wicker patio furniture set including a loveseat, two chairs, and a coffee table. Weather-resistant cushions for outdoor use.",
+      "category": "home & furniture",
+      "image": "https://picsum.photos/id/203/400/600",
+      "rating": {
+        "rate": 4.2,
+        "count": 70
+      }
+    },
+    {
+      "id": "104",
+      "title": "Fitness Jump Rope Pro V104",
+      "price": 18.99,
+      "description": "Adjustable speed jump rope with weighted handles and smooth ball bearings. Excellent for cardio and high-intensity interval training (HIIT).",
+      "category": "sports & outdoors",
+      "image": "https://picsum.photos/id/204/400/600",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": "105",
+      "title": "Women's High-Waisted Leggings V105",
+      "price": 25,
+      "description": "Ultra-soft and squat-proof high-waisted leggings. Perfect for yoga, running, or casual wear. Features a hidden waistband pocket.",
+      "category": "women's clothing",
+      "image": "https://picsum.photos/id/205/400/600",
+      "rating": {
+        "rate": 4.7,
+        "count": 1150
+      }
+    },
+    {
+      "id": "106",
+      "title": "Home Security Doorbell V106",
+      "price": 149,
+      "description": "Smart video doorbell with 1080p HD video, motion detection, and two-way talk. Monitor your front door from anywhere via your smartphone.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/206/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 290
+      }
+    },
+    {
+      "id": "107",
+      "title": "Cast Iron Skillet Set V107",
+      "price": 69.99,
+      "description": "Pre-seasoned 3-piece cast iron skillet set. Excellent heat retention and even cooking. Durable for a lifetime of use. Includes a handle cover.",
+      "category": "kitchen & dining",
+      "image": "https://picsum.photos/id/207/400/600",
+      "rating": {
+        "rate": 4.9,
+        "count": 950
+      }
+    },
+    {
+      "id": "108",
+      "title": "Minimalist Backpack V108",
+      "price": 45,
+      "description": "Sleek, minimalist backpack with a dedicated laptop compartment and anti-theft design. Water-resistant material for daily commuting.",
+      "category": "accessories",
+      "image": "https://picsum.photos/id/208/400/600",
+      "rating": {
+        "rate": 4.6,
+        "count": 340
+      }
+    },
+    {
+      "id": "109",
+      "title": "Men's Classic Chinos V109",
+      "price": 49.99,
+      "description": "Versatile classic-fit chino pants. Made from comfortable, wrinkle-resistant stretch fabric. Suitable for both work and casual settings.",
+      "category": "men's clothing",
+      "image": "https://picsum.photos/id/209/400/600",
+      "rating": {
+        "rate": 4.4,
+        "count": 500
+      }
+    },
+    {
+      "id": "110",
+      "title": "Electric Kettle Stainless Steel V110",
+      "price": 35,
+      "description": "Fast-boiling stainless steel electric kettle with automatic shut-off and boil-dry protection. 1.7-liter capacity.",
+      "category": "kitchen & dining",
+      "image": "https://picsum.photos/id/210/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 680
+      }
+    },
+    {
+      "id": "111",
+      "title": "Smart LED Light Bulbs V111",
+      "price": 40,
+      "description": "Set of 4 smart LED light bulbs. Control brightness and color via a mobile app or voice command. Energy-efficient and easy to install.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/211/400/600",
+      "rating": {
+        "rate": 4.7,
+        "count": 370
+      }
+    },
+    {
+      "id": "112",
+      "title": "Infinity Symbol Ring V112",
+      "price": 20,
+      "description": "Sterling silver infinity symbol ring. A simple and elegant band that symbolizes eternity. Great as a promise ring or daily accessory.",
+      "category": "jewelry",
+      "image": "https://picsum.photos/id/212/400/600",
+      "rating": {
+        "rate": 4.8,
+        "count": 210
+      }
+    },
+    {
+      "id": "113",
+      "title": "Faux Fur Area Rug V113",
+      "price": 65,
+      "description": "Large, ultra-soft faux fur area rug. Adds a cozy and luxurious feel to any room. Non-slip backing and easy to spot clean.",
+      "category": "home & furniture",
+      "image": "https://picsum.photos/id/213/400/600",
+      "rating": {
+        "rate": 4.3,
+        "count": 140
+      }
+    },
+    {
+      "id": "114",
+      "title": "Yoga Blocks Set of 2 V114",
+      "price": 15,
+      "description": "Set of two high-density EVA foam yoga blocks. Provides stability and support for yoga poses. Lightweight and durable.",
+      "category": "sports & outdoors",
+      "image": "https://picsum.photos/id/214/400/600",
+      "rating": {
+        "rate": 4.6,
+        "count": 550
+      }
+    },
+    {
+      "id": "115",
+      "title": "Women's Trench Coat V115",
+      "price": 120,
+      "description": "Classic women's trench coat with a belted waist and storm flap. A timeless piece of outerwear, perfect for layering.",
+      "category": "women's clothing",
+      "image": "https://picsum.photos/id/215/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 300
+      }
+    },
+    {
+      "id": "116",
+      "title": "Universal Tablet Stand V116",
+      "price": 12.99,
+      "description": "Adjustable, foldable tablet and smartphone stand. Perfect for hands-free viewing, video calls, or reading recipes. Non-slip base.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/216/400/600",
+      "rating": {
+        "rate": 4.4,
+        "count": 630
+      }
+    },
+    {
+      "id": "117",
+      "title": "Grill Tool Set - 5 Piece V117",
+      "price": 40,
+      "description": "Complete 5-piece stainless steel grilling tool set in a storage case. Includes spatula, tongs, fork, brush, and thermometer. Durable and heat-resistant.",
+      "category": "kitchen & dining",
+      "image": "https://picsum.photos/id/217/400/600",
+      "rating": {
+        "rate": 4.7,
+        "count": 390
+      }
+    },
+    {
+      "id": "118",
+      "title": "Digital Camera DSLR V118",
+      "price": 599,
+      "description": "Entry-level DSLR camera kit with a standard zoom lens. Perfect for beginners to explore photography with manual controls and HD video.",
+      "category": "electronics",
+      "image": "https://picsum.photos/id/218/400/600",
+      "rating": {
+        "rate": 4.6,
+        "count": 150
+      }
+    },
+    {
+      "id": "119",
+      "title": "Set of 5 Picture Frames V119",
+      "price": 35,
+      "description": "Matching set of five black wooden picture frames in assorted sizes. Ideal for creating a gallery wall. Can be hung vertically or horizontally.",
+      "category": "home & furniture",
+      "image": "https://picsum.photos/id/219/400/600",
+      "rating": {
+        "rate": 4.5,
+        "count": 480
+      }
+    },
+    {
+      "id": "124",
+      "productid": "25",
+      "itemcount": 2,
+      "title": "Men's Casual Sneakers V25",
+      "description": "Stylish and comfortable lace-up sneakers with a durable rubber sole. Ideal for everyday casual wear. Available in multiple colors.",
+      "price": 65,
+      "category": "men's clothing",
+      "image": "https://picsum.photos/id/125/400/600",
+      "rating": {
+        "rate": 4.3,
+        "count": 310
+      }
+    }
+  ],
+  "cart": [
+    {
+      "id": "1",
+      "productid": "2",
+      "itemcount": 1,
+      "title": "Mens Casual Premium Slim Fit T-Shirts ",
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "price": 22.3,
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    }
+  ],
+  "fakedata": [
+    {
+      "id": "  121,122,123",
+      "name": "Alice Johnson",
+      "phone": "+1-202-555-0143",
+      "username": "alicej",
+      "city": "New York",
+      "age": 28,
+      "gender": "Female"
+    },
+    {
+      "id": "2",
+      "name": "Michael Smith",
+      "phone": "+1-202-555-0198",
+      "username": "mikesmith",
+      "city": "Los Angeles",
+      "age": 34,
+      "gender": "Male"
+    },
+    {
+      "id": "3",
+      "name": "Sophia Lee",
+      "phone": "+1-202-555-0175",
+      "username": "sophial",
+      "city": "Chicago",
+      "age": 25,
+      "gender": "Female"
+    },
+    {
+      "id": "4",
+      "name": "David Brown",
+      "phone": "+1-202-555-0122",
+      "username": "daveb",
+      "city": "Houston",
+      "age": 40,
+      "gender": "Male"
+    },
+    {
+      "id": "5",
+      "name": "Emma Wilson",
+      "phone": "+1-202-555-0166",
+      "username": "emmaw",
+      "city": "San Francisco",
+      "age": 31,
+      "gender": "Female"
+    },
+    {
+      "id": "6",
+      "name": "James Anderson",
+      "phone": "+1-202-555-0111",
+      "username": "jamesa",
+      "city": "Seattle",
+      "age": 29,
+      "gender": "Male"
+    },
+    {
+      "id": "7",
+      "name": "Olivia Martinez",
+      "phone": "+1-202-555-0187",
+      "username": "oliviam",
+      "city": "Miami",
+      "age": 26,
+      "gender": "Female"
+    },
+    {
+      "id": "8",
+      "name": "William Taylor",
+      "phone": "+1-202-555-0155",
+      "username": "willt",
+      "city": "Boston",
+      "age": 38,
+      "gender": "Male"
+    },
+    {
+      "id": "9",
+      "name": "Isabella Thomas",
+      "phone": "+1-202-555-0133",
+      "username": "isabellat",
+      "city": "Atlanta",
+      "age": 24,
+      "gender": "Female"
+    },
+    {
+      "id": "10",
+      "name": "Benjamin Harris",
+      "phone": "+1-202-555-0179",
+      "username": "benh",
+      "city": "Denver",
+      "age": 32,
+      "gender": "Male"
+    },
+    {
+      "id": "11",
+      "name": "Mia Clark",
+      "phone": "+1-202-555-0190",
+      "username": "miac",
+      "city": "Portland",
+      "age": 27,
+      "gender": "Female"
+    },
+    {
+      "id": "12",
+      "name": "Alexander Lewis",
+      "phone": "+1-202-555-0148",
+      "username": "alexl",
+      "city": "Dallas",
+      "age": 36,
+      "gender": "Male"
+    },
+    {
+      "id": "13",
+      "name": "Charlotte Walker",
+      "phone": "+1-202-555-0160",
+      "username": "charlottew",
+      "city": "Philadelphia",
+      "age": 30,
+      "gender": "Female"
+    },
+    {
+      "id": "14",
+      "name": "Ethan Hall",
+      "phone": "+1-202-555-0129",
+      "username": "ethanh",
+      "city": "San Diego",
+      "age": 33,
+      "gender": "Male"
+    },
+    {
+      "id": "15",
+      "name": "Amelia Allen",
+      "phone": "+1-202-555-0136",
+      "username": "ameliaa",
+      "city": "Phoenix",
+      "age": 29,
+      "gender": "Female"
+    },
+    {
+      "id": "16",
+      "name": "Daniel Young",
+      "phone": "+1-202-555-0182",
+      "username": "dany",
+      "city": "Austin",
+      "age": 41,
+      "gender": "Male"
+    },
+    {
+      "id": "17",
+      "name": "Harper King",
+      "phone": "+1-202-555-0119",
+      "username": "harperk",
+      "city": "Las Vegas",
+      "age": 23,
+      "gender": "Female"
+    },
+    {
+      "id": "18",
+      "name": "Jacob Wright",
+      "phone": "+1-202-555-0150",
+      "username": "jacobw",
+      "city": "Orlando",
+      "age": 35,
+      "gender": "Male"
+    },
+    {
+      "id": "19",
+      "name": "Ella Scott",
+      "phone": "+1-202-555-0172",
+      "username": "ellas",
+      "city": "Detroit",
+      "age": 28,
+      "gender": "Female"
+    },
+    {
+      "id": "20",
+      "name": "Matthew Green",
+      "phone": "+1-202-555-0195",
+      "username": "mattg",
+      "city": "Minneapolis",
+      "age": 37,
+      "gender": "Male"
+    },
+    {
+      "id": "21",
+      "name": "Turpati Nishanth",
+      "phone": "07093979817",
+      "username": "lkmlm",
+      "city": "VIZIANAGARAM",
+      "age": "26",
+      "gender": "male"
+    },
+    {
+      "id": "22",
+      "name": "Turpati Nishanth",
+      "phone": "07093979817",
+      "username": "lkmlm",
+      "city": "VIZIANAGARAM",
+      "age": "26",
+      "gender": "male"
+    },
+    {
+      "id": "23",
+      "name": "Turpati Nishanth",
+      "phone": "07093979817",
+      "username": "lkmlm",
+      "city": "VIZIANAGARAM",
+      "age": "26",
+      "gender": "male"
+    }
+  ]
+}
