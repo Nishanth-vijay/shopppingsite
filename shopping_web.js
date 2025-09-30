@@ -17,13 +17,13 @@ let url = "http://localhost:3000/cart";
 
 
 async function fun() {
-   
+
 
     let dat = await fetch(URL)
     let da = await dat.json()
 
     printdeletedata(da)
-    
+
 
 }
 
@@ -37,7 +37,7 @@ async function printdeletedata(data) {
         let cartdiv = document.createElement("div")
         let desdiv = document.createElement("div")
         desdiv.id = "desdiv"
-         let maindesdiv = document.createElement("div")
+        let maindesdiv = document.createElement("div")
         maindesdiv.id = "maindesdiv"   // for button working when press on title , price not on buttons-delete,addcart
         let deldiv = document.createElement("div")
 
@@ -47,29 +47,43 @@ async function printdeletedata(data) {
         <h4>Price: ${element.price}</h4>
         `
         // <p>${element.description.split(/\s+/).slice(0, 45).join(" ")}</p>
-        
+
         // <h4>Rating-rate: ${element.rating.rate}</h4>
         // <h4>Rating-count : (${element.rating.count})</h4>
         // <h4>Category: ${element.category}</h4>
-imgdiv.onclick = () => {
-window.location.href = `product.html?id=${element.id}`;
-productinfo(element)
+        imgdiv.onclick = () => {
+            window.location.href = `product.html?id=${element.id}`;
+            productinfo(element)
 
-}
-desdiv.onclick = () => {
-window.location.href = `product.html?id=${element.id}`;
-productinfo(element)
+        }
+        desdiv.onclick = () => {
+            window.location.href = `product.html?id=${element.id}`;
+            productinfo(element)
 
-}
+        }
 
         deldiv.innerHTML = `<button>Delete</button> <p> </p>`
         deldiv.onclick = () => {
             maindiv.remove()
         }
-        
-        cartdiv.innerHTML = `<button type = "button">Add to cart</button>`
-        cartdiv.onclick = () => { cartfunction(element) }
-        maindesdiv.append(desdiv,deldiv, cartdiv)
+let cartBtn = document.createElement("button");
+cartBtn.type = "button";
+cartBtn.innerText = "Add to cart";
+
+cartBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    cartfunction(element);
+    let alertdiv = document.createElement("div");
+    alertdiv.id = "alertdiv";
+    alertdiv.innerText = "Added to cart";
+    document.body.append(alertdiv);
+
+    setTimeout(() => alertdiv.remove(), 2000);
+});
+
+cartdiv.appendChild(cartBtn);
+        maindesdiv.append(desdiv, deldiv, cartdiv)
         maindiv.append(imgdiv, maindesdiv)
         showdiv.appendChild(maindiv)
     });
@@ -81,99 +95,99 @@ productinfo(element)
 
 
 async function cartfunction(element) {
-            // event.preventDefault();
+    // event.preventDefault();
 
-             let dat = await fetch(url)
+    let dat = await fetch(url)
     let len = await dat.json()
     let Status = false;
     // if(!Status){
     //     console.log("New Item Added to Cart");
-        
+
     // }
-let modurl
-let opt
-let incomingitemid = element.id;
-len.forEach((item) => {
-    if (item.productid === incomingitemid) {
-        Status = true;
-         modurl = url + `/${item.id}`
-      opt = ({
-            method: "PUT",
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-
-                 "id": `${item.id}`,
-                    "productid": element.id,
-                    "itemcount": item.itemcount + 1 ,
-                    "title": element.title,
-                    "description": element.description,
-                    "price": element.price,
-                    "category": element.category,
-                    "image": element.image,
-                    "rating": element.rating
-
-            })
-
-            })
-}
- }   )
-
-if(!Status) {
-
-  modurl = url ;
-             opt = ({
-                method: "POST",
+    let modurl
+    let opt
+    let incomingitemid = element.id;
+    len.forEach((item) => {
+        if (item.productid === incomingitemid) {
+            Status = true;
+            modurl = url + `/${item.id}`
+            opt = ({
+                method: "PUT",
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
 
-                    "id": `${len.length + 1}`,
+                    "id": `${item.id}`,
                     "productid": element.id,
-                    "itemcount": 1,
+                    "itemcount": item.itemcount + 1,
                     "title": element.title,
                     "description": element.description,
                     "price": element.price,
                     "category": element.category,
                     "image": element.image,
                     "rating": element.rating
+
                 })
 
             })
-
-
-        } 
-console.log(modurl, opt);
-
-
-            try {
-                let d1 = await fetch(modurl, opt);
-                console.log("Status:", d1.status, "Redirected:", d1.redirected, "URL:", d1.URL2);
-                let res = await d1.json();
-                console.log("Response:", res);
-                setTimeout(() => {
-
-                }, 3000)
-            }
-            catch (error) {
-                console.log(error);
-                setTimeout(() => {
-                    console.log("Server is not running")
-                }, 3000)
-            }
-
-
         }
+    })
+
+    if (!Status) {
+
+        modurl = url;
+        opt = ({
+            method: "POST",
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+
+                "id": `${len.length + 1}`,
+                "productid": element.id,
+                "itemcount": 1,
+                "title": element.title,
+                "description": element.description,
+                "price": element.price,
+                "category": element.category,
+                "image": element.image,
+                "rating": element.rating
+            })
+
+        })
 
 
-        
+    }
+    console.log(modurl, opt);
 
-function productinfo(element){
-let productpagediv = document.getElementById("productpage")
-let imagediv = document.createElement("div")
-imagediv.id = "imagediv"
-let desdiv = document.createElement("div")      
-desdiv.id = "desdiv"
-imagediv.innerHTML = `<img src=${element.image} alt=${element.title}>`
-desdiv.innerHTML = `
+
+    try {
+        let d1 = await fetch(modurl, opt);
+        console.log("Status:", d1.status, "Redirected:", d1.redirected, "URL:", d1.URL2);
+        let res = await d1.json();
+        console.log("Response:", res);
+        setTimeout(() => {
+
+        }, 3000)
+    }
+    catch (error) {
+        console.log(error);
+        setTimeout(() => {
+            console.log("Server is not running")
+        }, 3000)
+    }
+
+
+}
+
+
+
+
+function productinfo(element) {
+    let productpagediv = document.getElementById("productpage")
+    let imagediv = document.createElement("div")
+    imagediv.id = "imagediv"
+    let desdiv = document.createElement("div")
+    desdiv.id = "desdiv"
+    imagediv.innerHTML = `<img src=${element.image} alt=${element.title}>`
+    desdiv.innerHTML = `
 <h3>${element.title}</h3>
 <h4>Price: ${element.price}</h4>
 <p>${element.description}</p>
@@ -181,8 +195,8 @@ desdiv.innerHTML = `
 <h4>Rating-rate: ${element.rating.rate}</h4>
 <h4>Rating-count : (${element.rating.count})</h4>
 `
-productpagediv.append(imagediv, desdiv)
-// localStorage.setItem("product", JSON.stringify(element))    
+    productpagediv.append(imagediv, desdiv)
+    // localStorage.setItem("product", JSON.stringify(element))    
 
 
 
@@ -203,4 +217,4 @@ productpagediv.append(imagediv, desdiv)
 
 
 
-fun();
+document.addEventListener("DOMContentLoaded", fun);

@@ -51,12 +51,31 @@ function productinfo(element) {
 
     productcategory = element.category;
     console.log(productcategory);
-    similarproduct(productcategory)
-    cartdiv.onclick = () => { cartfunction(element) }
+    similarproduct(productcategory )
+   
     gotocartdiv.innerHTML = `<button type = "button">Go to cart</button>`
+    
     gotocartdiv.onclick = () => { window.location.href = "cart.html" }
     // desdiv.appendChild(gotocartdiv)
-    cartdiv.innerHTML = `<button type = "button">Add to cart</button>`
+    cartdiv.innerHTML = `<button type="button">Add to cart</button>`;
+
+
+ cartdiv.onclick = (e) => { 
+        e.preventDefault()
+        e.stopPropagation(); // Optional: stops bubbling if needed
+        cartfunction(element);
+
+    let alertdiv = document.createElement("div")
+    alertdiv.id = "alertdiv"
+    alertdiv.innerText = "Added to cart"
+    document.body.append(alertdiv)
+
+    setTimeout(() => {
+        alertdiv.remove()
+    }, 2000)
+    
+}
+
     desdiv.append(cartdiv,gotocartdiv)
     maindiv.append(titlediv, imgdiv, desdiv)
     productdiv.appendChild(maindiv)
@@ -70,7 +89,7 @@ async function similarproduct(productcategory) {
     let res = await fetch(producturl);
     let data = await res.json();
     data.forEach(element => {
-        if (element.category === productcategory) {
+        if (element.category === productcategory  && element.id != productId) {
             let div = document.createElement("div");
 
             let btndiv = document.createElement("div");
@@ -110,37 +129,10 @@ async function similarproduct(productcategory) {
         }
         
     });
-
-        let divs = simdiv.querySelectorAll("img");
-        divs.forEach(div => {
-            div.onclick = () => {
-                console.log((div));
-                window.location.href = `product.html?id=${(div.id)}`;
-
-            }
-
-        });
-        let divs1 = simdiv.querySelectorAll("h4");
-        divs1.forEach(div => {
-            div.onclick = () => {
-                console.log((div));
-                window.location.href = `product.html?id=${(div.id)}`;
-
-            }
-
-        });
-        let divs2 = simdiv.querySelectorAll("h5");
-        divs2.forEach(div => {
-            div.onclick = () => {
-                console.log((div));
-                window.location.href = `product.html?id=${(div.id)}`;
-
-            }
-
-        });
-
-
-
+    
+    simdiv.querySelectorAll('img', 'h4', 'h5').forEach(el => {
+        el.onclick = () => window.location.href = `product.html?id=${el.id}`;
+    });
 
 //         imgdiv.onclick = () => {
 // window.location.href = `product.html?id=${element.id}`;
@@ -158,83 +150,101 @@ async function similarproduct(productcategory) {
 async function cartfunction(element) {
     // event.preventDefault();
     let dat = await fetch(cartUrl);
-    let len = await dat.json()
-    let Status = false;
-    // if(!Status){
-    //     console.log("New Item Added to Cart");
-
-    // }
-    let modurl
-    let opt
+    let len = await dat.json();
+    
     let incomingitemid = element.id;
-    len.forEach((item) => {
-        // console.log(item);
-        
-        if (item.productid === incomingitemid) {
-            Status = true;
-            modurl = cartUrl+`/${item.id}`
-            opt = ({
-                method: "PUT",
+
+    let itemfound = len.find(  (item) => item.productid === incomingitemid)  ;
+
+    console.log("Item found:", itemfound);
+
+    let modurl = itemfound ? cartUrl+`/${itemfound.id}` : cartUrl;
+    
+    let    opt = ({
+                method: itemfound ? "PUT" : "POST",
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-
-                    "id": item.id,
+                    "id": itemfound ? itemfound.id : `${len.length + 1}`,
                     "productid": element.id,
-                    "itemcount": item.itemcount + 1,
+                    "itemcount": itemfound ? itemfound.itemcount + 1 : 1,
                     "title": element.title,
                     "description": element.description,
                     "price": element.price,
                     "category": element.category,
                     "image": element.image,
                     "rating": element.rating
-
                 })
 
-            })
-        }
-        })
+            });
+
+
+
+    // len.forEach((item) => {
+    //     // console.log(item);
+
+    //     if (item.productid === incomingitemid) {
+    //         Status = true;
+    //         modurl = cartUrl+`/${item.id}`
+    //         opt = ({
+    //             method: "PUT",
+    //             headers: { 'Content-Type': 'application/json' },
+    //             body: JSON.stringify({
+
+    //                 "id": item.id,
+    //                 "productid": element.id,
+    //                 "itemcount": item.itemcount + 1,
+    //                 "title": element.title,
+    //                 "description": element.description,
+    //                 "price": element.price,
+    //                 "category": element.category,
+    //                 "image": element.image,
+    //                 "rating": element.rating
+
+    //             })
+
+    //         })
+    //     }
+    //     })
    
 
-    if (!Status) {
+    // if (!Status) {
 
-        modurl = cartUrl;
-        opt = ({
-            method: "POST",
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
+    //     modurl = cartUrl;
+    //     opt = ({
+    //         method: "POST",
+    //         headers: { 'Content-Type': 'application/json' },
+    //         body: JSON.stringify({
 
-                "id": `${len.length + 1}`,
-                "productid": element.id,
-                "itemcount": 1,
-                "title": element.title,
-                "description": element.description,
-                "price": element.price,
-                "category": element.category,
-                "image": element.image,
-                "rating": element.rating
-            })
+    //             "id": `${len.length + 1}`,
+    //             "productid": element.id,
+    //             "itemcount": 1,
+    //             "title": element.title,
+    //             "description": element.description,
+    //             "price": element.price,
+    //             "category": element.category,
+    //             "image": element.image,
+    //             "rating": element.rating
+    //         })
 
-        })
+    //     })
 
 
-    }
-    console.log(modurl);
+    // }
+    // console.log(modurl);
  
 
     try {
         let d1 = await fetch(modurl, opt);
         console.log("Status:", d1.status, "Redirected:", d1.redirected, "URL:", d1.url);
-        let res = await d1.json();  
-        // console.log("Response:", res);
-        setTimeout(() => {
-
-        }, 3000)
+        // setTimeout(() => {}, 3000)
     }
     catch (error) {
-        console.log(modurl);
+
         console.log(error);
+        console.log("product not added to cart")
+        alert("product not added to cart due to some error")
         setTimeout(() => {
-            console.log("product nor added to cart")
+            window.location.reload();           
         }, 3000)
     }
 

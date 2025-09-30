@@ -1,3 +1,82 @@
 a{
     text-decoration: none;
 }
+#maindiv {
+    display: flex;
+    /* flex-direction: row;   side-by-side layout */
+     /* gap: 10px; */
+            /* between children */
+    /* border: 1px solid black; */
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px 0;
+    /* align-items: center;   vertically align children */
+}
+
+#imgdiv {
+    flex: 2;               /* take 1 portion of space */
+    justify-content: "space-between";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#desdiv {
+    flex: 4;               /* take 4 portions of space */
+    /* border: 2px solid black; */
+    padding-left: 20px;
+    align-content: top;
+    /* justify-items: ; */
+ /* border: 1px solid black; */
+}
+#pricediv {
+    flex: 1;               /* take 2 portions of space */
+    /* border: 2px solid black; */
+    padding: 8px;
+    align-content: center;
+    justify-items: right;
+ /* border: 1px solid black; */
+}
+img {
+
+      /* border: 1px solid black; */
+    max-width: 100%;
+    height: 100%;          /* maintain aspect ratio */
+    border-radius: 8px;    /* optional: rounded corners */
+}
+#id{
+    /* display: flex; */
+    /* gap: 280px; */
+    /* border: 1px solid black; */
+    padding-left: 80vw;
+    margin: 0px 0;
+    /* background-color: lightgray; */
+}
+
+#price-count_infodiv{
+    /* border: 1px solid black; */
+    /* padding-left: 3vw; */
+    background-color: lightgray;
+    text-align: right;
+    position: sticky;
+    bottom: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;   
+    
+}
+
+
+#alertdiv{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
