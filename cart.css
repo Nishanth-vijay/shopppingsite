@@ -64,3 +64,36 @@ a{
     color: black;   
     
 }
+
+
+input[type=number]::-webkit-inner-spin-button,
+
+
+input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none;  
+       margin: 0; 
+     }
+
+
+     h4>div{
+        display: inline;
+        /* border: 2px solid black; */
+        background:white;  
+        border-radius: 0.8rem; 
+
+     }  
+
+     h4>div>button{
+        background: transparent;
+        border: none;
+        /* border-radius: 10px; */
+
+     }
+
+
+     h4>div>input{
+    
+        background: transparent;
+        border: 0px;
+    
+    }
